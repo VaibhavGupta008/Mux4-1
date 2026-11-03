@@ -1,0 +1,4 @@
+BASH Commands
+iverilog -o mux module.v testbench.v
+vvp mux
+gtkwave mux.vcd
